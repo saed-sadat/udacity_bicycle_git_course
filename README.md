@@ -33,7 +33,7 @@ If you need the csv files you may contact udacity providing you with this inform
 
 - If you want to enhance the database you should uodate or enhance the following structures.
 
-´´´python
+```python
 import os
 import time
 import pandas as pd
@@ -45,7 +45,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 MONTH_DATA = {'jan':1,'feb':2,'mar':3,'apr':4,'may':5,'jun':6,'all':'all'}
 DAY_DATA=['monday','tuesday','wednesday', 'thursday','friday','saturday','sunday','all']
-´´´
+```
 ## Contribution guidelines
 
 If you welcome contributions, provide guidelines on how others can contribute to your project.
