@@ -4,6 +4,12 @@ import pandas as pd
 import numpy as np
 from pandas import Series, DataFrame
 
+"""
+ Loads data for the specified csv Files. Enhance the Dictionary for further locations
+ Provide the csv Files on the location of this script
+ 
+ """
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york': 'new_york_city.csv',
               'washington': 'washington.csv' }
