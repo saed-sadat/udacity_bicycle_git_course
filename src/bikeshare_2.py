@@ -318,24 +318,18 @@ def main():
                 else:
                     print("\n Die Filterung ergab keine Treffer für diesen Zeitraum.")
             restart = input('\nWould you like to restart? Enter yes or no.\n')
-            if restart.lower() not in ['yes','y']:
-                print("\n\n user says no!. Ciao!")
+            if restart.lower() != 'yes':
                 break
         except (KeyboardInterrupt,EOFError):
             print("\n\n Program was interrupetd by user. Ciao!")
             break
         except Exception as e:
-            print(f"\n Error occured in main becaose of wrong input:{e}")
+            print(f"\nError occured in main because of wrong input:{e}")
             restart = input('\nWould you like to restart? Enter yes or no:\n')
-           # if restart.lower() != 'yes':
-                #print("\n\n Program was interrupetd by user. Ciao!")  
-                # break
-            
-            if restart.lower() not in ['yes','y']:
-               
-                print("\n\n Program was interrupetd by user. Ciao!") 
-                break            
-                 
+            if restart.lower() != 'yes':
+                print("\n\n Program was interrupetd by user. Ciao!")                
+                break
+        
 
 if __name__ == "__main__":
 	main()
