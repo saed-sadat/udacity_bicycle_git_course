@@ -48,9 +48,9 @@ You are welcome to contribute to project. if you want so please fork the provide
 	- PANDAS-Bibliothek instalado
 
 - **Data Sources**
-	-chicago.csv (local must be available)
-	-new_york_city.csv (local must be available)
-	-washington.csv(local must be available)
+	- chicago.csv (local must be available)
+	- new_york_city.csv (local must be available)
+	- washington.csv(local must be available)
 
 
 ## Credits
