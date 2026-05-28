@@ -13,13 +13,6 @@ Further more the user can select between differnt cities or all 3 cities new yor
 In order to use the project you need to download the src folder. Put the csv files required in that particular folder and run the python script.
 You need to have a python 3 installed on your local machine and a git version if you are intreste to use a version control system to track the changes. 
 
-This could include:
-
-- Step-by-step instructions for installing or setting up your project.
-- Any software dependencies that need to be installed.
-- Instructions and examples for how to use your project, including any helpful code snippets.
-- Common issues and troubleshooting tips
-
 1.  install a python version on your computer. If possible get the latest version of Anaconda to be able to use a professional python environment
 2. You need the Pandas libraries as well as numpy librraies to run the script 
 3. This script will run on any platform such as Linux and Windows.
@@ -48,27 +41,24 @@ DAY_DATA=['monday','tuesday','wednesday', 'thursday','friday','saturday','sunday
 ```
 ## Contribution guidelines
 
-If you welcome contributions, provide guidelines on how others can contribute to your project.
 You are welcome to contribute to project. if you want so please fork the provided project and send a pull request.
 
 - **Projket Voraussetzungen**
 	- Python 3.10 or newer
 	- PANDAS-Bibliothek instalado
 
--**Data Sources**
-	- chicago.csv (local must be available)
-	- new_york_city.csv (local must be available)
+- **Data Sources**
+	-chicago.csv (local must be available)
+	-new_york_city.csv (local must be available)
 	-washington.csv(local must be available)
 
 
 ## Credits
 
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 In order to get to touch with the source of this project and ask for a traing contact see the link below
 
 https://www.udacity.com/
 
 ## Date created
 
-Include the date you created this project and README file.
 This project and also the readmefiles is created on Wedndeay 2026-05-27!
